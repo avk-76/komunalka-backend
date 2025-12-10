@@ -1,19 +1,15 @@
 {
   "name": "komunalka-backend",
   "version": "1.0.0",
+  "description": "Backend API for Komunalka app (Neon + Render)",
   "type": "module",
-  "main": "server.js",
+  "main": "server.mjs",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server.mjs"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "helmet": "^7.1.0",
-    "morgan": "^1.10.0",
-    "pg": "^8.12.0",
-    "rate-limiter-flexible": "^5.0.4"
+    "express": "^4.18.2",
+    "pg": "^8.11.1"
   }
 }
